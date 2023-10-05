@@ -1,0 +1,393 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat-light;
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: SF Pro Display;
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: SF Pro Display_bold;
+  src: url("../fonts/FontsFree-Net-SFProDisplay-Heavy-1.ttf");
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.clr-yellow {
+  color: #f3901b;
+}
+
+.card_shape {
+  height: auto;
+  padding-top: 92px;
+  width: 1260px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+.card_shape .card {
+  background: url("../images/card_shp.png") no-repeat center;
+  background-size: cover;
+  border-style: none;
+  float: left;
+  height: 623px;
+  margin: 100px 1% 0 1%;
+  width: 31.3%;
+}
+
+.card_shape .card .card-title {
+  font-family: "SF Pro Display";
+  margin-top: 12%;
+  margin-left: 18%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.card-title_sec {
+  font-family: "SF Pro Display";
+  margin-top: 12%;
+  margin-left: 0%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.card_shape .card .sub-card-title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  margin-left: 0%;
+
+  color: #fff;
+}
+
+.card_shape .card .container {
+  margin-top: 30px;
+  // margin-bottom: 40px;
+  /* padding: 10px 15px; */
+}
+
+.card_shape .card .section_one_left ul li {
+  text-align: left;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  list-style: none;
+  padding: 5px 0px;
+
+  color: #ffffff;
+}
+.card_shape .card .section_one_left {
+  float: left;
+  width: 40%;
+}
+.card_shape .card .section_one_right ul li {
+  text-align: right;
+  font-family: "SF Pro Display_bold";
+  font-style: normal;
+  font-size: 12px;
+  list-style: none;
+  padding: 5px 0px;
+  font-weight: 800;
+  font-size: 12px;
+
+  color: #f3901b;
+}
+
+.card_shape .card .section_one_right {
+  float: right;
+  width: 50%;
+  margin-right: 20px;
+}
+.poly {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+.normal {
+  padding: 4px 5px;
+
+  background: #ffa030;
+  border-radius: 18px;
+}
+
+.card_shape .card .section_one_right span {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  /* line-height: 17px;s */
+
+  /* text-align: right; */
+
+  color: #ffffff;
+}
+
+.heading {
+  text-align: left;
+  font-family: "SF Pro Display_bold";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  list-style: none;
+  padding: 5px 0px;
+  margin-left: 5%;
+
+  color: #ffffff;
+}
+.heading .poly {
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.section_one_right .blank {
+  width: 126px;
+  height: 19px;
+  padding: 5px 28px;
+
+  background: #595959;
+  border-radius: 5px;
+}
+
+.btn_edit button {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background: url("../images/butback.png") no-repeat center;
+  background-size: contain;
+  border-style: none;
+  opacity: 0.6;
+  font-size: 14px;
+}
+.edit_cur {
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 767px) {
+  .card_shape {
+    height: auto;
+    padding-top: 42px;
+    width: 320px;
+  }
+  .card_shape .card {
+    height: 510px;
+    margin: 50px 0 0 0;
+    width: 100%;
+  }
+  .card_shape .card .card-title {
+    font-family: "SF Pro Display";
+    margin: 31px 0 0 0 !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    padding: 0px !important;
+  }
+  .card_shape .card .section_one_left ul li {
+    padding: 3px 0px;
+  }
+
+  footer .row {
+    width: 100%;
+    margin: auto;
+    padding: 30px 20px 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .col {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+  footer p {
+    text-align: center;
+    margin: 11px 0 0 0;
+  }
+  .col img {
+    width: 60%;
+    padding: 0;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .col h3 {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  .card_shape .card .container {
+    margin-top: 12px;
+    clear: both;
+    overflow: hidden;
+  }
+
+  nav .collapse .cont {
+    margin: 0 0 35px 0;
+    text-align: center;
+  }
+
+  nav .collapse .navbar-nav .nav-item a {
+    text-align: center;
+  }
+  p.img_bor {
+    right: 3%;
+  }
+  .card_shape .card .section_one_right ul li {
+    padding: 3px 0px;
+  }
+  .card_shape .card .container {
+    margin-bottom: 0;
+  }
+  .card_shape .card {
+    display: block;
+  }
+  .small-form {
+    border: 1px solid #f3901b;
+    margin: -5px auto 9px;
+  }
+  .edit_cur.pd {
+    margin: 11px 0 96px;
+  }
+}
+
+.section_one_right ul li .right_sec {
+  text-align: right;
+  font-family: "SF Pro Display_bold";
+  font-style: normal;
+  font-size: 12px;
+  list-style: none;
+  padding: 5px 0px;
+  font-weight: 800;
+  font-size: 12px;
+  color: #f3901b;
+}
+
+.btn_edit_page button {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background: url("../images/butback.png") no-repeat center;
+  background-size: contain;
+  border-style: none;
+  color: #fff;
+  font-size: 14px;
+}
+.btn_edit_page_1 button {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background: url("../images/butback2.png") no-repeat center;
+  background-size: contain;
+  border-style: none;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.btn_edit_page_2 button {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  background: url("../images/butback3.png") no-repeat center;
+  background-size: contain;
+  border-style: none;
+  color: #fff;
+  font-size: 14px;
+}
+.bg_pag {
+  width: 126px;
+  height: 41px;
+
+  background: #ff3e3e;
+  border-radius: 5px;
+  padding: 4px 40px 5px 4px;
+}
+
+.section_one_right ul {
+  padding: 0px;
+}
+.card_shape .card .container {
+  padding: 0px;
+}
+.section_one_left {
+  padding: 0px;
+}
+.section_one_left ul {
+  padding: 0 0 0 23px;
+}
+
+.section_one_left ul li.bottom-space,
+.section_one_right ul li.bottom-space {
+  margin-bottom: 20px;
+}
+
+.small-form {
+  width: 82%;
+  border: 1px solid #f3901b;
+  clear: both;
+  overflow: hidden;
+  padding: 2px;
+  border-radius: 4px;
+  margin: 0 auto 0;
+}
+.text-area {
+  width: 75%;
+  float: left;
+  line-height: 37px;
+  padding: 0 10px;
+  border: 0px;
+  background: none;
+  color: #fff;
+}
+
+.max-btn {
+  background: #ff3e3e;
+  height: 37px;
+  border-radius: 4px;
+  width: 20%;
+  float: right;
+  border: 0px;
+  outline: 0px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 32px;
+}
+
+.edit_cur.pd {
+  margin: 34px 0 96px 0;
+}
+
+.pad_tp {
+  margin: 10px 0;
+  display: block;
+}
+.up_dn {
+  display: block;
+  text-align: left;
+  height: 51px;
+  width: 99%;
+}
